@@ -69,6 +69,11 @@
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="Dev\Styles\main.less" />
+    <Content Include="Content\fonts\DaxlinePro-Bold.otf" />
+    <Content Include="Content\fonts\DaxlinePro-ExtraBold.otf" />
+    <Content Include="Content\fonts\DaxlinePro-Light.otf" />
+    <Content Include="Content\fonts\DaxlinePro-Medium.otf" />
+    <Content Include="Content\fonts\DaxlinePro-Regular.otf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -77,6 +82,10 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Build\Styles\app.min.css" />
+    <Content Include="Content\bg-repeat-nav.png" />
+    <Content Include="Content\bg-repeat.png" />
+    <Content Include="Content\menu-active.png" />
     <Content Include="gulpfile.js" />
     <Content Include="index.html" />
     <Content Include="Web.config" />
@@ -86,8 +95,6 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Build\Scripts\" />
-    <Folder Include="Build\Styles\" />
-    <Folder Include="Content\" />
     <Folder Include="Dev\Scripts\" />
   </ItemGroup>
   <PropertyGroup>
