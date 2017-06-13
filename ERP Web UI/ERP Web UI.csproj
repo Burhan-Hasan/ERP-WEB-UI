@@ -69,6 +69,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Build\Scripts\app.min.js" />
+    <Content Include="demo2.html" />
+    <Content Include="demo1.html" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <Content Include="Dev\Styles\main.less" />
@@ -90,7 +92,6 @@
     <Content Include="Content\bg-repeat.png" />
     <Content Include="Content\menu-active.png" />
     <Content Include="gulpfile.js" />
-    <Content Include="index.html" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
